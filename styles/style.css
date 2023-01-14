@@ -99,3 +99,55 @@
 .banner-img img {
     width: 100%;
 }
+
+main {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+/* -----------------------
+    our-features styles
+-------------------------- */
+
+.our-features {
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    gap: 74px;
+}
+
+.our-features-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-features-info {
+    padding-right: 60px;
+}
+
+.our-features-info > h3 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+
+.features-info-black {
+    font-weight: 700;
+    color: #131313;
+}
+
+.features-info-orange {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.our-features-info> p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
