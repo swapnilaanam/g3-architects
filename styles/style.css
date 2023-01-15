@@ -48,6 +48,7 @@
 
 .nav-items {
     display: flex;
+    align-items: center;
     gap: 40px;
     padding: 0;
 }
@@ -432,4 +433,123 @@ main {
     line-height: 23px;
     color: #424242;
     padding: 38px 0;
+}
+
+/* --------------------
+    Media Queries
+----------------------- */
+
+/* mobile devices */
+
+@media only screen and (max-width: 576px) {
+    .nav, .nav-items, .quicklist-features, .features-you-love, .sponsors {
+        flex-direction: column;
+    }
+
+    .nav-items {
+        margin-top: 20px;
+    }
+
+    .banner-content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .banner-img {
+        margin: 0 10px;
+    }
+
+
+    .quicklist-features {
+        align-items: center;
+    }
+
+    .quicklist-features-images {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .quicklist-features-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .features-you-love {
+        padding: 0 15px;
+        gap: 50px;
+    }
+    .features-you-love .features-details {
+        width: 100%;
+    }
+    
+    .features-details > h3 {
+        padding: 0;
+        padding-left: 20px;
+    }
+
+    .features {
+        margin-top: 50px;
+    }
+
+    .feature {
+        padding: 20px 15px;
+    }
+
+    .features-image {
+        max-width: none;
+        width: 100%;
+    }
+
+    .features-image img {
+        width: 100%;
+    }
+
+    .features-btn {
+        position: static;
+        margin: 0 20px;
+    }
+
+    .some-facts {
+        text-align: center;
+    }
+
+    .some-facts > p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .facts {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        justify-items: center;
+        column-gap: 0;
+        row-gap: 40px;
+    }
+
+    
+    .our-sponsors > p {
+        width: 90%;
+    }
+
+    .sponsors {
+        align-items: center;
+        gap: 80px;
+    }
+
+    .our-works {
+        margin-top: 140px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .works {
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0;
+        row-gap: 50px;
+        margin-top: 50px;
+    }
+
+    .footer {
+        margin-top: 120px;
+    }
 }
