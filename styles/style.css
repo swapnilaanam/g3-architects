@@ -446,6 +446,10 @@ main {
         flex-direction: column;
     }
 
+    .nav-title {
+        text-align: center;
+    }
+
     .nav-items {
         margin-top: 20px;
     }
@@ -455,10 +459,13 @@ main {
         margin-right: 10px;
     }
     
+    .banner-title {
+        font-size: 50px;
+    }
+    
     .banner-img {
         margin: 0 10px;
     }
-
 
     .quicklist-features {
         align-items: center;
@@ -506,7 +513,8 @@ main {
 
     .features-btn {
         position: static;
-        margin: 0 20px;
+        margin: 0 15px;
+        font-size: 40px;
     }
 
     .some-facts {
