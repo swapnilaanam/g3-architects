@@ -126,7 +126,7 @@ main {
     padding-right: 60px;
 }
 
-.our-features-info > h3 {
+.our-features-info>h3 {
     font-weight: 500;
     font-size: 45px;
     line-height: 53px;
@@ -143,11 +143,152 @@ main {
     color: #FF900E;
 }
 
-.our-features-info> p {
+.our-features-info>p {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #727272;
     margin-top: 24px;
     margin-bottom: 32px;
+}
+
+/* ------------------------------
+    features-you-love styles
+--------------------------------- */
+
+.features-you-love {
+    margin-top: 130px;
+    display: flex;
+    gap: 145px;
+}
+
+
+.features-details {
+    width: 45%;
+    margin-top: 50px;
+}
+
+.features-details>h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+    padding-left: 20px;
+    padding-right: 100px;
+    border-left: 5px solid #FF900E;
+}
+
+.features-details>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.features {
+    margin-top: 30px;
+}
+
+.feature {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.feature .feature-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.feature .feature-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.features-image {
+    position: relative;
+    width: 50%;
+}
+
+.features-image img {
+    width: 100%;
+    height: 90%;
+}
+
+.features-btn {
+    padding: 45px 42px;
+    position: absolute;
+    left: -80px;
+    bottom: 20px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+}
+
+.features-btn>span {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+/* -------------------------
+    some-facts styles
+---------------------------- */
+
+.some-facts {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.some-facts>h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.some-facts>p {
+    line-height: 26px;
+    color: #727272;
+    width: 40%;
+}
+
+.facts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    column-gap: 100px;
+    margin: 0 40px;
+}
+
+.fact {
+    padding: 46px 35px 59px 35px;
+    margin-top: 100px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.fact .fact-title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    margin: 10px;
+}
+
+.fact .fact-desc {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+    margin-bottom: 5px;
 }
