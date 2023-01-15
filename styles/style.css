@@ -106,10 +106,10 @@ main {
 }
 
 /* -----------------------
-    our-features styles
+    quicklist-features styles
 -------------------------- */
 
-.our-features {
+.quicklist-features {
     margin-top: 85px;
     display: flex;
     justify-content: space-between;
@@ -118,21 +118,21 @@ main {
     padding: 0 30px;
 }
 
-.our-features-images {
+.quicklist-features-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
 
-.our-features-images img {
+.quicklist-features-images img {
     width: 100%;
 }
 
-.our-features-info {
+.quicklist-features-info {
     width: 58%;
 }
 
-.our-features-info>h3 {
+.quicklist-features-info>h3 {
     font-weight: 500;
     font-size: 45px;
     line-height: 53px;
@@ -149,7 +149,7 @@ main {
     color: #FF900E;
 }
 
-.our-features-info>p {
+.quicklist-features-info>p {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -325,25 +325,25 @@ main {
 }
 
 /* -----------------------
-    our-sponsor styles
+    our-sponsors styles
 -------------------------- */
 
-.our-sponsor {
+.our-sponsors {
     margin-top: 130px;
     text-align: center;
 }
 
-.our-sponsor>h3 {
+.our-sponsors>h3 {
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
     color: #131313;
 }
 
-.our-sponsor>p {
+.our-sponsors>p {
     line-height: 26px;
     color: #727272;
-    width: 40%;
+    width: 45%;
     margin: 0 auto;
     margin-top: 24px;
 }
@@ -358,8 +358,6 @@ main {
 
 .sponsor img {
     width: 100%;
-    color: black;
-    background-blend-mode: luminosity;
 }
 
 .footer {
